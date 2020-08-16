@@ -1,6 +1,3 @@
-$(function () {
-
-
     const server = require('./www.js').http;
     //var express = require('express');
     //var www = require('express')();
@@ -164,4 +161,3 @@ $(function () {
             return "";
         }
     })
-})
