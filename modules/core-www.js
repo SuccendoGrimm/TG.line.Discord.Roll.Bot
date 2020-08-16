@@ -23,6 +23,11 @@ www.get('/', (req, res) => {
     res.sendFile(process.cwd() + '/views/index.html');
 });
 
+www.get('/index.js', (req, res) => {
+   console.log('req: ', req, 'res: ', res)
+    res.sendFile(process.cwd() + '/views/index.js');
+});
+
 www.get('/assets/icon/:id', (req, res) => {
     res.sendFile(process.cwd() + '/assets/icon/' + req.originalUrl.replace('/assets/icon/', ''));
 });
