@@ -28,7 +28,9 @@ var prefixs = function () {
 var getHelpMessage = function () {
     return "【Admin 工具】" + "\
 	\n  用來Debug 及調整VIP工具\
-		\n debug 用來取得群組資料"
+        \n debug 用來取得群組資料\
+        \n  統計 有多少MESSAGE SENT\
+        \n  有多少GP 加入了BOT"
 }
 
 var initialize = function () {
