@@ -30,7 +30,7 @@ var getHelpMessage = function () {
 	\n  用來Debug 及調整VIP工具\
         \n debug 用來取得群組資料\
         \n  統計 有多少MESSAGE SENT\
-        \n  有多少GP 加入了BOT"
+        \n  有多少GP 加入了BOT 只有DISCORD"
 }
 
 var initialize = function () {
